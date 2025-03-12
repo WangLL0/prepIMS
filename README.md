@@ -6,7 +6,7 @@ Developer is Linlin Wang from Xiamen University of China.
 # Overflow of prepIMS Model
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/WangLL0/prepIMS/refs/heads/main/read.png" width="1000" height="650" /><br/>
+<img src="https://raw.githubusercontent.com/WangLL0/prepIMS/refs/heads/main/read.png" width="950" height="650" /><br/>
 </div>
 
 __Workflow of the prepIMS for 4D MSI Data Preprocessing__. (A) Acquisition of IM-MSI data from whole-body mouse pup tissue; (B) Extraction of mass and ion mobility signals for each pixel; (C) Peak detection for the mass signals; (D) Extraction of the ion mobility signals from the specific mass peak within 20 ppm; (E) Calculation of the density index (rho) and relative intensity index (delta) for each ion mobility data point; (F) Peak detection for ion mobility signals based on calculated rho and delta values; (G) Grouping and merging 2D signals from all pixels to obtain the intensity of each peak; (H) Performing 2D peak alignment and filtering to reconstruct the ion images.  
