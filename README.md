@@ -57,10 +57,6 @@ If you want to further filter peaks based on their frequency, run:
 
     python filtering.py
 
-If you want to further filter peaks based on their frequency, run:
-
-    python filtering.py
-
 If you want to generate a sparse matrix for molecular imaging, run:
 
     python sparsing.py
