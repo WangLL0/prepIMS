@@ -26,7 +26,7 @@ def binning_data(data_mz, data_intensity, tolerance=20, d=6):
             indices_within_tolerance_mzunique = np.where((mz_unique >= max_intensity_mz * (1000000 - tolerance) / 1000000) & (mz_unique <= max_intensity_mz * (1000000 + tolerance) / 1000000))[0]
         else:
             indices_within_tolerance_datamz = np.where((data_mz >= max_intensity_mz * (1 - tolerance)) & (data_mz <= max_intensity_mz * (1 + tolerance)))[0]
-            indices_within_tolerance_mzunique = np.where((mz_unique >= max_intensity_mz * (1 - tolerance)) & (mz_unique <= max_intensity_mz * (1000000 + tolerance)))[0]
+            indices_within_tolerance_mzunique = np.where((mz_unique >= max_intensity_mz * (1 - tolerance)) & (mz_unique <= max_intensity_mz * (1 + tolerance)))[0]
         mean_mz = np.around(np.mean(data_mz[indices_within_tolerance_datamz]), d)
         data_mz[indices_within_tolerance_datamz] = mean_mz
         mz_unique = np.delete(mz_unique, indices_within_tolerance_mzunique)
