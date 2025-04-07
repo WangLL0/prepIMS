@@ -15,7 +15,6 @@ def feature_selection(m, n, selected_cluster, sparse_data, peak):
         m (int): Number of rows in the grid.
         n (int): Number of columns in the grid.
         selected_cluster (int): The cluster index to analyze.
-        data (numpy.ndarray)
         peak (numpy.ndarray): Peak feature array.
     """
     data = sparse_data.toarray()
