@@ -191,7 +191,6 @@ def mz_peaks(mz, intensity, snr=5, ppm_threshold=40):
     return mzpeaks_final[np.argsort(-intensitypeaks_final)]
 
 
-
 def ccs_peaks(mz, ccs, intensity, mzpeaks, tol_mz=20, tol_ccs = 0.005):
     """
         Identifies CCS peaks by clustering them based on density and intensity.
