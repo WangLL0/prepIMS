@@ -23,7 +23,7 @@ def process_data(file_path):
     return queried_data, max_frame  # Return dataset object and max frame number
 
 if __name__ == "__main__":
-    file_path = "/path/to/your/data.d"  # Change this to your actual .d file path
+    file_path = "/path/to/your/data.d"   # Change this to your actual .d file path
     data_array, max_frame = process_data(file_path)
 
     output_dir = pathlib.Path("RawData")
