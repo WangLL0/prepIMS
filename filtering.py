@@ -8,7 +8,6 @@ def peak_pooling(data, thr = 0.05, save_txt=False):
             data (numpy.ndarray): The aligned peak data (columns: m/z, CCS, Intensity, Sample).
             thr (float, optional): The minimum occurrence ratio threshold for filtering peaks. Default is 0.05.
             save_txt (bool, optional): If True, save results to text files. Default is False.
-
         Returns:
             tuple: (Feature matrix, Filtered peak list)
     """
