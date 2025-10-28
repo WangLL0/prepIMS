@@ -55,15 +55,6 @@ python sparsing.py
 
 Constructs a sparse matrix (pixels × features) for visualization and analysis.
 
-### 6. Visualize Ion Images
-
-```bash
-python imaging.py --selected_cluster 0
-```
-
-Generates and saves ion images for the selected feature cluster (e.g., cluster 0).
-
----
 
 ## ✅ Output
 
@@ -71,8 +62,6 @@ After running the full pipeline, you will find:
 
 - `filtered_peaks.csv`: Final peak list after alignment and filtering
 - `feature_matrix.npz`: Sparse matrix storing intensity values
-- `ion_images/`: Folder containing PNG images of selected features
-
 ---
 
 ## 💡 Tips
