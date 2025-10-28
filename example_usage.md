@@ -8,8 +8,8 @@ Place the following files in your working directory:
 
 ```
 example_dataset/
-├── Brain_DAN_TIMS_Neg_100um1.d/              # Raw Bruker data folder (optional if using extracted CSVs)
-├── Brain_DAN_TIMS_Neg_100um1_poslog.txt/            # Spatial coordinate file (frame mapping)
+├── HCC_DAN_Neg_20um_TIMS.d/              # Raw Bruker data folder (optional if using extracted CSVs)
+├── HCC_DAN_Neg_20um_TIMS_poslog.txt/            # Spatial coordinate file (frame mapping)
 ├── 1/                 # Extracted CSVs per frame (output of extraction.py)
 ```
 
